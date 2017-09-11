@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>DevLog</title>
+</head>
+<body>
+  <h1>Welcome</h1>
+  Here are the latest blog posts:
+  {{range .}}
+    <div>
+      <div><a href="/post/{{.Slug}}">{{.Title}}</a></div>
+      <div>{{.Content}}</div>
+      <div>{{.Date}}</div>
+    </div>
+  {{end}}
+</body>
+</html>

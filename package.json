@@ -1,0 +1,27 @@
+{
+  "name": "devlog-go",
+  "version": "1.0.0",
+  "description": "Development log book written in Go and Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dlgoodchild/devlog-go.git"
+  },
+  "keywords": [
+    "go",
+    "vue.js",
+    "devlog"
+  ],
+  "author": "Dave Goodchild",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlgoodchild/devlog-go/issues"
+  },
+  "homepage": "https://github.com/dlgoodchild/devlog-go#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}

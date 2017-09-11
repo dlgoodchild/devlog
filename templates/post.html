@@ -1,0 +1,19 @@
+<html>
+<head>
+
+</head>
+<body>
+  <h1>{{.Title}}</h1>
+  <h4>{{.Date}}</h4>
+  <p>{{.Content}}</p>
+
+  <div>
+    <div>Other posts:</div>
+    <ul>
+      {{range .Blogs}}
+      <li><a href="/page/{{.Guid}}">{{.Title}}</a></li>
+      {{end}}
+    </ul>
+  </div>
+</body>
+</html>
